@@ -12,7 +12,7 @@ var mais = '+'
 var menos = '-'
 var vezes = '*'
 var divisao = '/'
-var inputContent = '0'
+var inputContent = ''
 
 var input = document.getElementById('textOrResult')
 
@@ -74,10 +74,10 @@ function btnDivisao(){
 }
 function btnLimpar(){
     input.value = '0'
-    inputContent = '0'
+    inputContent = ''
 }
 function btnIgual(){
-    if(input.value === '0'){
+    if(input.value === ''){
 
     }else{
         const result = eval(inputContent)
