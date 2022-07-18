@@ -73,11 +73,11 @@ function btnDivisao(){
     input.value = inputContent
 }
 function btnLimpar(){
-    input.value = ''
-    inputContent = ''
+    input.value = '0'
+    inputContent = '0'
 }
 function btnIgual(){
-    if(input.value === ''){
+    if(input.value === '0'){
 
     }else{
         const result = eval(inputContent)
