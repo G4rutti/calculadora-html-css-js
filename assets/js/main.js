@@ -12,7 +12,7 @@ var mais = '+'
 var menos = '-'
 var vezes = '*'
 var divisao = '/'
-var inputContent = ''
+var inputContent = '0'
 
 var input = document.getElementById('textOrResult')
 
