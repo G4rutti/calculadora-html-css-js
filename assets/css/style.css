@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700;900&display=swap');
+*{
+    font-family: Kanit, Helvetica, Arial, sans-serif;
+    outline: none;
+    text-decoration: none;
+    background-color: #E1BC95;
+    margin: 0;
+    padding: 0;
+}
+
+.contentButtons{
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw 10vw;
+    grid-template-rows: 10vh 10vh 10vh 10vh;
+    grid-template-areas: "um dois tres limpar"
+                         "quatro cinco seis mais"
+                         "sete oito nove menos"
+                         "zeroNum divisao vezes igual";
+    grid-column-gap: 2px;
+    grid-row-gap: 5px;
+    width: 40vw;
+    height: 50vh;
+}
+.contentButtons button{
+    cursor: pointer;
+    border: 1px solid #5C4D3D;
+    background-color: #A8743D ;
+    border-radius: 3em;
+    width: 10vw;
+    height: 10vh;
+}
+.content input{
+    border: 1px solid #5C4D3D;
+    border-radius: 3em;
+    color: #5C4D3D;
+    font-size: 1.5rem;
+    margin-bottom: 1vh;
+    text-align: center;
+    width: 40vw;
+    height: 5vh;
+}
+
+
+
+.um{
+    grid-area: um;
+}
+.um button{
+    background-color: #A8743D;
+}
+.um button:hover{
+    transition: 0.5s;
+    background-color: #DB974F;
+}
+
+
+
+.dois{
+    grid-area: dois;
+}
+.dois button{
+    background-color: #A8743D;
+}
+.dois button:hover{
+    transition: 0.5s;
+    background-color: #DB974F;
+}
+
+
+
+.tres{
+    grid-area: tres;
+}
+.tres button{
+    background-color: #A8743D;
+}
+.tres button:hover{
+    transition: 0.5s;
+    background-color: #DB974F;
+}
+
+
+
+.quatro{
+    grid-area: quatro;
+}
+.quatro button{
+    background-color: #A8743D;
+}
+.quatro button:hover{
+    transition: 0.5s;
+    background-color: #DB974F;
+}
+
+
+
+.cinco{
+    grid-area: cinco;
+}
+.cinco button{
+    background-color: #A8743D;
+}
+.cinco button:hover{
+    transition: 0.5s;
+    background-color: #DB974F;
+}
+
+
+
+.seis{
+    grid-area: seis;
+}
+.seis button{
+    background-color: #A8743D;
+}
+.seis button:hover{
+    transition: 0.5s;
+    background-color: #DB974F;
+}
+
+
+
+.sete{
+    grid-area: sete;
+}
+.sete button{
+    background-color: #A8743D;
+}
+.sete button:hover{
+    transition: 0.5s;
+    background-color: #DB974F;
+}
+
+
+
+.oito{
+    grid-area: oito;
+}
+.oito button{
+    background-color: #A8743D;
+}
+.oito button:hover{
+    transition: 0.5s;
+    background-color: #DB974F;
+}
+
+
+
+.nove{
+    grid-area: nove;
+}
+.nove button{
+    background-color: #A8743D;
+}
+.nove button:hover{
+    transition: 0.5s;
+    background-color: #DB974F;
+}
+
+
+
+.zero{
+    grid-area: zeroNum;
+}
+.zero button{
+    background-color: #A8743D;
+}
+.zero button:hover{
+    transition: 0.5s;
+    background-color: #DB974F;
+}
+
+.mais{
+    grid-area: mais;
+}
+.mais button{
+    background-color: #DB974F;
+}
+.mais button:hover{
+    transition: 0.5s;
+    background-color: #A8743D;
+}
+
+
+.menos{
+    grid-area: menos;
+}
+.menos button{
+    background-color: #DB974F;
+}
+.menos button:hover{
+    transition: 0.5s;
+    background-color: #A8743D;
+}
+
+
+.vezes{
+    grid-area: vezes;
+}
+.vezes button{
+    background-color: #DB974F;
+}
+.vezes button:hover{
+    transition: 0.5s;
+    background-color: #A8743D;
+}
+
+
+.divisao{
+    grid-area: divisao;
+}
+.divisao button{
+    background-color: #DB974F;
+}
+.divisao button:hover{
+    transition: 0.5s;
+    background-color: #A8743D;
+}
+
+
+.igual{
+    grid-area: igual;
+}
+.igual button{
+    background-color: #DB974F;
+}
+.igual button:hover{
+    transition: 0.5s;
+    background-color: #A8743D;
+}
+
+
+.limpar{
+    grid-area: limpar;
+}
+.limpar button{
+    background-color: #DB974F;
+}
+.limpar button:hover{
+    transition: 0.5s;
+    background-color: #A8743D;
+}
+
+header{
+    height: 10vh;
+    background-color: #DB974F;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    cursor: pointer;
+    color: #5C4D3D;
+    margin:auto;
+    background-color: #DB974F;
+}
+.content{
+    display: flex;
+    margin-top: 5vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+}
+footer ul li{
+    margin: 2vw;
+}
+footer ul li i{
+    color: #5C4D3D;
+    margin-right: 0.5vw;
+}
+footer ul li a{
+    color: #5C4D3D;
+}
+
+@media screen and (max-width:920px) {
+    .contentButtons{
+        display: grid;
+        grid-template-columns: 20vw 20vw 20vw 20vw;
+        grid-template-rows: 10vh 10vh 10vh 10vh;
+        grid-template-areas: "um dois tres limpar"
+                             "quatro cinco seis mais"
+                             "sete oito nove menos"
+                             "zeroNum divisao vezes igual";
+        grid-column-gap: 2px;
+        grid-row-gap: 5px;
+        width: 80vw;
+        height: 50vh;
+    }
+
+    .contentButtons button{
+        font-size: 1.5rem;
+        width: 20vw;
+    }
+    .content input{
+        font-size: 2rem;
+        width: 80vw;
+    }
+}
+@media screen and (max-width:400) {
+    .contentButtons button{
+        border-radius: 2px;
+    }
+}
